@@ -4,8 +4,8 @@ function presentTime(){
     var mins = date.getMinutes();
     var secs = date.getSeconds();
     hours = updateT(hours);
-    mins = updateM(mins);
-    secs = updateS(secs);
+    mins = updateT(mins);
+    secs = updateT(secs);
     document.getElementById("digiclock").innerHTML= hours+" : "+mins+" : "+secs;
     var time = setTimeout(function(){presentTime()}, 1000);
 }
@@ -18,3 +18,4 @@ function updateT(j) {
         return j;
     }
 }
+presentTime();
