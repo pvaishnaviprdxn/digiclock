@@ -116,6 +116,7 @@ h1{
     margin:20px 0 20px 0;
     color: white;
     font-weight: bold;
+    font-family: monospace,sans-serif;
 }
 /*=================================
   Header styling ends here
@@ -124,7 +125,14 @@ h1{
 /*=================================
   main styling starts here
 =================================*/
-
+.digiclock{
+    font-family: monospace,sans-serif;
+    font-size: 75px;
+	text-align: center;
+	padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(86, 109, 47);
+}
 
 
 
