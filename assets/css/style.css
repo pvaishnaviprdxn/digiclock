@@ -125,7 +125,7 @@ h1{
 /*=================================
   main styling starts here
 =================================*/
-.digiclock{
+#digiclock{
     font-family: monospace,sans-serif;
     font-size: 75px;
 	text-align: center;
