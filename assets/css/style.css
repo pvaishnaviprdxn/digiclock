@@ -106,11 +106,17 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-
-
-
-
-
+header{
+    border: 1px solid;
+    background-color:rgb(95, 155, 155);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin:20px 0 20px 0;
+    color: white;
+    font-weight: bold;
+}
 /*=================================
   Header styling ends here
 =================================*/  
